@@ -13,7 +13,7 @@ module.exports = {
         'eslint:recommended',
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
-        'plugin:import/recommended'
+        'plugin:import/recommended',
     ],
     env: {
         browser: true,
@@ -43,6 +43,6 @@ module.exports = {
             node: {
                 extensions: ['.js', '.ts', '.tsx'],
             },
-        }
+        },
     },
 };
