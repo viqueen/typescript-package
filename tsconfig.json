@@ -12,11 +12,9 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
-    "target": "ES2017",
+    "target": "ES2017"
   },
-  "include": [
-    "src"
-  ],
+  "include": ["src"],
   "exclude": [
     "src/**/*.test.ts",
     "src/**/*.spec.ts",
