@@ -1,0 +1,18 @@
+{
+  "name": "typescript-package",
+  "version": "1.0.0",
+  "description": "typescript package",
+  "main": "index.js",
+  "repository": "git@github.com:viqueen/typescript-package.git",
+  "author": "Hasnae R. <>",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "typescript": "^5.0.4"
+  }
+}
