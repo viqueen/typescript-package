@@ -21,11 +21,12 @@ module.exports = {
     },
     rules: {
         '@labset-eslint/license-notice': [
-            'error', {
+            'error',
+            {
                 license: 'Apache-2.0',
                 copyRightYear: '<update-me>',
-                copyRightName: '<update-me>'
-            }
+                copyRightName: '<update-me>',
+            },
         ],
         '@typescript-eslint/no-unused-vars': [
             'error',
