@@ -17,6 +17,11 @@
       addLabels: ["patch"],
       commitMessagePrefix: "[patch-upgrades]",
     },
+    {
+      extends: "monorepo:typescript-eslint",
+      groupName: "typescript-eslint monorepo",
+      matchUpdateTypes: ["digest", "patch", "minor", "major"],
+    },
   ],
   major: {
     bumpVersion: "major",
