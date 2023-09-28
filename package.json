@@ -1,6 +1,6 @@
 {
   "name": "typescript-package",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "typescript package",
   "main": "index.js",
   "repository": "git@github.com:viqueen/typescript-package.git",
@@ -28,7 +28,7 @@
     "eslint": "^8.41.0",
     "eslint-plugin-import": "^2.27.5",
     "jest": "^29.5.0",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
