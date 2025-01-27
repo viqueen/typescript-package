@@ -25,9 +25,21 @@
   ],
   major: {
     bumpVersion: "major",
+    packageRules: [
+      {
+        matchPackageNames: ["typescript-package"],
+        matchCurrentVersion: "/^\\d+\\.\\d+\\.[^0]$/",
+      },
+    ],
   },
   minor: {
     bumpVersion: "minor",
+    packageRules: [
+      {
+        matchPackageNames: ["typescript-package"],
+        matchCurrentVersion: "/^\\d+\\.\\d+\\.[^0]$/",
+      },
+    ],
   },
   patch: {
     bumpVersion: "patch",
