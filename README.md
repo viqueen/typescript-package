@@ -10,35 +10,36 @@ Template for building node packages using Typescript
 brew install nvm
 ```
 
-- **[yarn](https://yarnpkg.com/)** as node package manager
+- install node version
 
 ```bash
-brew install yarn
+nvm install 
 ```
+
 
 ### house-keeping
 
 - build it
 
 ```bash
-yarn build
+npm run build
 ```
 
 - format it
 
 ```bash
-yarn format
+npm run  format
 ```
 
 - lint it
 
 ```bash
-yarn lint
-yarn lint --fix
+npm run lint
+npm run lint --fix
 ```
 
 - test it
 
 ```bash
-yarn test
+npm test
 ```
