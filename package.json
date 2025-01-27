@@ -17,7 +17,7 @@
     "test:watch": "jest --watchAll",
     "format:check": "prettier --check .",
     "format": "prettier --check --write .",
-    "lint": "eslint . --ext .ts,.tsx,.js"
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@labset-eslint/eslint-plugin": "^1.2.0",
