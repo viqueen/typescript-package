@@ -13,9 +13,8 @@ brew install nvm
 - install node version
 
 ```bash
-nvm install 
+nvm install
 ```
-
 
 ### house-keeping
 
