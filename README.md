@@ -18,6 +18,12 @@ nvm install
 
 ### house-keeping
 
+- install dependencies
+
+```bash
+npm ci
+```
+
 - build it
 
 ```bash
