@@ -48,3 +48,9 @@ npm run lint --fix
 ```bash
 npm test
 ```
+
+- invite claude
+
+```bash
+npm run claude
+```

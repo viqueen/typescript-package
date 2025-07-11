@@ -11,6 +11,7 @@
     "dist"
   ],
   "scripts": {
+    "claude": "claude",
     "build": "tsc",
     "build:watch": "tsc --watch",
     "test": "jest",
